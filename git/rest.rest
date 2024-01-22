@@ -1,0 +1,29 @@
+GET http://localhost:3000/venue/
+
+###
+
+POST http://localhost:3000/venue/hlo
+
+content-Type: application/json
+
+{
+  "name":"Anbuselvan",
+  "id":5,
+  "phone_no":9360794554,
+  "email":"anbuselvan@gmail.com",
+  "incharge":"vasanth",
+  "capacity":55,
+  "amount":5555,
+
+}
+
+###
+
+POST http://localhost:3000/yuvaraj
+
+content-Type: application/json
+
+{
+  "name":"Anbuselvan",
+  "id":5
+}
